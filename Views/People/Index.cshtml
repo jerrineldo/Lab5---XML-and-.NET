@@ -1,0 +1,27 @@
+﻿@model IEnumerable<XmlTest.Models.Person>
+@{
+    ViewData["Title"] = "People";
+}
+
+<h1>People</h1>
+
+<a class="btn btn-default" asp-action="Create">Add a person</a>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Job</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(m => item.FirstName)</td>
+                <td>@Html.DisplayFor(m => item.LastName)</td>
+                <td>@Html.DisplayFor(m => item.Job)</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schools>
+	<school>
+		<name>Pace University</name>
+		<type>Private</type>
+		<type>University</type>
+		<family_member role="teacher">Jeanine</family_member>
+		<url>www.pace.edu</url>
+	</school>
+	<school>
+		<name>Purchase College</name>
+		<type>Public</type>
+		<type>Liberal Arts College</type>
+		<family_member role="teacher">Jeanine</family_member>
+		<url>www.purchase.edu</url>
+	</school>
+	<school>
+		<name>Swarthmore College</name>
+		<type>Private</type>
+		<type>Liberal Arts College</type>
+		<family_member>Aviva</family_member>
+		<family_member>Daniel</family_member>
+		<url>www.swarthmore.edu</url>
+	</school>
+	<school>
+		<name>Cornell University</name>
+		<type>University</type>
+		<type>Private</type>
+		<family_member>Daniel</family_member>
+		<url>www.cornell.edu</url>
+	</school>
+	<school>
+		<name>Columbia University </name>
+		<type>University</type>
+		<type>Private</type>
+		<family_member>Jeanine</family_member>
+		<family_member>Aviva</family_member>
+		<url>www.columbia.edu</url>
+	</school>
+	<school>
+		<name>Harvard University</name>
+		<type>University</type>
+		<type>Private</type>
+		<family_member>Daniel</family_member>
+		<url>www.harvard.edu</url>
+	</school>
+</schools>

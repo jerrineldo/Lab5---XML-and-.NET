@@ -1,0 +1,22 @@
+﻿@{ 
+    ViewData["Title"] = "Schools";
+}
+
+<h1>Schools</h1>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Index">
+            <div class="form-group">
+                <label for="Type" class="control-label">Type:</label>
+                <select id="Type">
+                    <option value="Public">Public</option>
+                    <option value="Private">Private</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="filter" class="btn btn-default"/>
+            </div>
+        </form>
+    </div>
+</div>
+@Html.Raw(ViewBag.Output)

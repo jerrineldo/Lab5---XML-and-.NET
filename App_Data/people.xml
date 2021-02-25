@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<people>
+  <person employeeId="0001" job="accountant" title="Sir">
+    <name>
+      <first>Jerrin</first>
+      <middle initial="y">H</middle>
+      <last>Eldo</last>
+    </name>
+    <bio> 
+            Harry first appeared in &lt; Harry Potter &amp; <strong>Hi this wont work here </strong>.
+            <em>hI its em</em>the  Philiosopher's Stone&gt;
+        </bio>
+  </person>
+  <person employeeId="0002" job="Accountant" title="Mr">
+    <name>
+      <first>Harry</first>
+      <last>Johnson</last>
+    </name>
+    <bio><![CDATA[
+            Harry first appeared in <Harry Potter & the  Philiosopher's Stone>.
+            ]]></bio>
+    <hobbies>
+      <hobby>Coin-Collection</hobby>
+    </hobbies>
+  </person>
+  <person job="Web Developer">
+    <name>
+      <first>Jerrin</first>
+      <last>Mazhuvancherry</last>
+    </name>
+  </person>
+</people>
